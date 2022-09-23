@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "FunctionsSDK": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7167 --verbose"
+    }
+  }
+}
