@@ -1,13 +1,4 @@
-﻿using System;
-using System.IO;
-using System.Reflection;
-using Azure.Identity;
-using Azure.Messaging.ServiceBus;
-using Microsoft.Azure.Functions.Extensions.DependencyInjection;
-using Microsoft.Extensions.Configuration;
-using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Logging;
-using Microsoft.Extensions.Options;
+﻿using Microsoft.Azure.Functions.Extensions.DependencyInjection;
 using NServiceBus;
 
 [assembly: FunctionsStartup(typeof(Startup))]
